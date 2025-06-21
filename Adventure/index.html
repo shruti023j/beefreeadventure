@@ -1,0 +1,1571 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ADVENTURE</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="responsive.css" />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            type="image/jpg"
+            href="https://www.travelworld.co/wp-content/uploads/2020/05/Top-10-places-to-Visit-in-Spain-Madrid-905x607.jpg"
+        />
+        <link
+            rel="icon"
+            type="image/jpg"
+            sizes="32x32"
+            href="https://www.travelworld.co/wp-content/uploads/2020/05/Top-10-places-to-Visit-in-Spain-Madrid-905x607.jpg"
+        />
+        <link
+            rel="icon"
+            type="image/jpg"
+            sizes="16x16"
+            href="https://www.travelworld.co/wp-content/uploads/2020/05/Top-10-places-to-Visit-in-Spain-Madrid-905x607.jpg"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+    </head>
+    <body
+        onload='if (window.location.href.substr(window.location.href.length - 6) == "#about") { introAboutLogoTransition(); }'
+    >
+        <!--navbar-->
+        <nav class="navbar glass" style="height: 80px">
+            <span class="logo-container">
+                <a href="#home" style="display: flex; align-items: center">
+                    <div class="logo-icon">🏔️</div>
+                    <h1 class="logo">ADVENTURE</h1>
+                </a>
+            </span>
+            <ul class="nav-links">
+                <li>
+                    <a href="#home" id="pri" class="active cir_border">
+                        <i class="fa fa-home"></i> Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#events" id="sec" class="cir_border">
+                        <i class="fa fa-calendar"></i> Adventures
+                    </a>
+                </li>
+                <li>
+                    <a href="#explore" id="tri" class="cir_border">
+                        <i class="fa fa-compass"></i> Explore
+                    </a>
+                </li>
+                <li>
+                    <a href="#tours" id="quad" class="cir_border">
+                        <i class="fa fa-map"></i> Tours
+                    </a>
+                </li>
+                <li>
+                    <a href="#gallery" id="gallery-nav" class="cir_border">
+                        <i class="fa fa-camera"></i> Gallery
+                    </a>
+                </li>
+                <li>
+                    <a href="#booking" id="booking-nav" class="cir_border">
+                        <i class="fa fa-ticket"></i> Book Now
+                    </a>
+                </li>
+                <li>
+                    <a href="#about" id="quint" class="cir_border">
+                        <i class="fa fa-info-circle"></i> About
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact" id="hept" class="cir_border">
+                        <i class="fa fa-envelope"></i> Contact
+                    </a>
+                </li>
+                <li class="theme-toggle">
+                    <div>
+                        <input
+                            type="checkbox"
+                            class="checkbox dark"
+                            id="checkbox"
+                        />
+                        <label for="checkbox" class="label">
+                            <i class="fa fa-moon-o"></i>
+                            <i class="fa fa-sun-o"></i>
+                            <div class="ball"></div>
+                        </label>
+                    </div>
+                </li>
+            </ul>
+            <div class="menu-btn">☰</div>
+        </nav>
+        <!--navbar-->
+
+        <header id="home">
+            <div class="hero-overlay"></div>
+            <div class="floating-elements">
+                <div class="floating-icon" style="top: 20%; left: 10%; animation-delay: 0s;">🏔️</div>
+                <div class="floating-icon" style="top: 60%; left: 80%; animation-delay: 1s;">🌲</div>
+                <div class="floating-icon" style="top: 30%; left: 85%; animation-delay: 2s;">🦅</div>
+                <div class="floating-icon" style="top: 70%; left: 15%; animation-delay: 1.5s;">🏕️</div>
+                <div class="floating-icon" style="top: 15%; left: 75%; animation-delay: 0.5s;">⭐</div>
+            </div>
+            <div class="header-content">
+                <div class="animated-badge">
+                    <span class="badge-text">🌍 #1 Adventure Company</span>
+                </div>
+                <h2 id="quote" class="dynamic-quote">Explore the colourful World</h2>
+                <div class="line animated-line"></div>
+                <h1 class="main-title">
+                    <span class="title-word" style="animation-delay: 0.1s;">A</span>
+                    <span class="title-word" style="animation-delay: 0.2s;">WONDERFUL</span>
+                    <span class="title-word" style="animation-delay: 0.3s;">GIFT</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Discover breathtaking destinations, create lifelong memories, and push your limits with our expert-guided adventures.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="15420">0</span>
+                        <span class="stat-label">Happy Adventurers</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="89">0</span>
+                        <span class="stat-label">Countries</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="1247">0</span>
+                        <span class="stat-label">Mountains</span>
+                    </div>
+                </div>
+                <div class="hero-actions">
+                    <a href="#booking" class="ctn primary-ctn">
+                        <i class="fa fa-rocket"></i> Start Adventure
+                    </a>
+                    <a href="#scrolling-captions" class="ctn secondary-ctn">
+                        <i class="fa fa-play"></i> Watch Stories
+                    </a>
+                </div>
+                <div class="scroll-hint">
+                    <div class="scroll-arrow">↓</div>
+                    <span>Discover More</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Interactive Scrolling Captions Section -->
+        <section class="scrolling-captions" id="scrolling-captions">
+            <div class="captions-container">
+                <div class="caption-slide active" data-slide="1">
+                    <div class="caption-content">
+                        <h2 class="caption-title">🏔️ Conquer the Himalayas</h2>
+                        <p class="caption-text">Experience the thrill of reaching heights where eagles soar and clouds dance beneath your feet</p>
+                        <div class="caption-stats">
+                            <span class="stat">8,848m Peak</span>
+                            <span class="stat">14 Days Journey</span>
+                            <span class="stat">Life Changing</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="caption-slide" data-slide="2">
+                    <div class="caption-content">
+                        <h2 class="caption-title">🌿 Explore Amazon Wilderness</h2>
+                        <p class="caption-text">Dive deep into the heart of the rainforest where ancient secrets whisper through emerald leaves</p>
+                        <div class="caption-stats">
+                            <span class="stat">5.5M km² Forest</span>
+                            <span class="stat">10% Species</span>
+                            <span class="stat">Pure Magic</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="caption-slide" data-slide="3">
+                    <div class="caption-content">
+                        <h2 class="caption-title">🦁 Safari Adventures Await</h2>
+                        <p class="caption-text">Witness the raw power of nature as the Big Five roam freely across the endless African plains</p>
+                        <div class="caption-stats">
+                            <span class="stat">Big 5 Animals</span>
+                            <span class="stat">Serengeti Plains</span>
+                            <span class="stat">Wild Encounters</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="caption-slide" data-slide="4">
+                    <div class="caption-content">
+                        <h2 class="caption-title">🏝️ Tropical Paradise Discovery</h2>
+                        <p class="caption-text">Escape to crystal clear waters where time stands still and every sunset paints a masterpiece</p>
+                        <div class="caption-stats">
+                            <span class="stat">Crystal Waters</span>
+                            <span class="stat">Coral Reefs</span>
+                            <span class="stat">Paradise Found</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="caption-slide" data-slide="5">
+                    <div class="caption-content">
+                        <h2 class="caption-title">❄️ Arctic Expeditions</h2>
+                        <p class="caption-text">Journey to the edge of the world where ice sculptures tell stories of millennia past</p>
+                        <div class="caption-stats">
+                            <span class="stat">Polar Bears</span>
+                            <span class="stat">Northern Lights</span>
+                            <span class="stat">Frozen Beauty</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="caption-slide" data-slide="6">
+                    <div class="caption-content">
+                        <h2 class="caption-title">🏜️ Desert Mysteries</h2>
+                        <p class="caption-text">Walk through golden dunes where ancient civilizations left their mark under starlit skies</p>
+                        <div class="caption-stats">
+                            <span class="stat">Golden Dunes</span>
+                            <span class="stat">Starlit Nights</span>
+                            <span class="stat">Ancient Secrets</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="caption-slide" data-slide="7">
+                    <div class="caption-content">
+                        <h2 class="caption-title">🌋 Volcano Adventures</h2>
+                        <p class="caption-text">Feel the earth's raw power as you trek active volcanoes and witness nature's most spectacular displays</p>
+                        <div class="caption-stats">
+                            <span class="stat">Active Volcanoes</span>
+                            <span class="stat">Lava Flows</span>
+                            <span class="stat">Fire & Stone</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="caption-slide" data-slide="8">
+                    <div class="caption-content">
+                        <h2 class="caption-title">🏔️ Alpine Wonders</h2>
+                        <p class="caption-text">Breathe the crisp mountain air as you conquer peaks that touch the sky and overlook the world below</p>
+                        <div class="caption-stats">
+                            <span class="stat">Sky High Peaks</span>
+                            <span class="stat">Alpine Trails</span>
+                            <span class="stat">Summit Dreams</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="caption-slide" data-slide="9">
+                    <div class="caption-content">
+                        <h2 class="caption-title">🌊 Ocean Depths</h2>
+                        <p class="caption-text">Dive into crystal clear waters and discover underwater worlds filled with colorful coral reefs and marine life</p>
+                        <div class="caption-stats">
+                            <span class="stat">Coral Gardens</span>
+                            <span class="stat">Marine Paradise</span>
+                            <span class="stat">Deep Blue</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="caption-slide" data-slide="10">
+                    <div class="caption-content">
+                        <h2 class="caption-title">🎯 Adventure Awaits You</h2>
+                        <p class="caption-text">Your next great adventure is just one click away. Join thousands who have discovered their limits and beyond</p>
+                        <div class="caption-stats">
+                            <span class="stat">15,000+ Adventurers</span>
+                            <span class="stat">50+ Destinations</span>
+                            <span class="stat">Life Changing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="caption-navigation">
+                <div class="nav-dots">
+                    <span class="nav-dot active" data-slide="1"></span>
+                    <span class="nav-dot" data-slide="2"></span>
+                    <span class="nav-dot" data-slide="3"></span>
+                    <span class="nav-dot" data-slide="4"></span>
+                    <span class="nav-dot" data-slide="5"></span>
+                    <span class="nav-dot" data-slide="6"></span>
+                    <span class="nav-dot" data-slide="7"></span>
+                    <span class="nav-dot" data-slide="8"></span>
+                    <span class="nav-dot" data-slide="9"></span>
+                    <span class="nav-dot" data-slide="10"></span>
+                </div>
+                <div class="slide-counter">
+                    <span class="current-slide">01</span>
+                    <span class="separator">/</span>
+                    <span class="total-slides">10</span>
+                </div>
+            </div>
+            
+            <div class="scroll-indicator">
+                <div class="scroll-arrow">↓</div>
+                <span class="scroll-text">Scroll to explore</span>
+            </div>
+        </section>
+
+        <!--Events-->
+        <section class="events" id="events">
+            <div class="container">
+                <div class="title">
+                    <h1 class="dark">Upcoming Events</h1>
+                    <div class="line"></div>
+                </div>
+                <div class="row">
+                    <article class="card col">
+                        <img class="card-img" src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=500&h=300&fit=crop" alt="Everest Base Camp Trek">
+                        <h4 class="dark">Everest Base Camp Trek</h4>
+                        <p class="font-color">
+                            Everest base camp trek is without a doubt, one of
+                            the most renowned travel destinations in the world.
+                            Experience breathtaking views and challenge yourself.
+                        </p>
+                        <a href="#tours" class="ctn">All Details</a>
+                    </article>
+                    <article class="card col">
+                        <img class="card-img" src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=500&h=300&fit=crop" alt="Walking Holidays">
+                        <h4 class="dark">Walking Holidays</h4>
+                        <p class="font-color">
+                            Join small guided group walks, enjoy a challenging
+                            trek, or a luxury private guided walk which can be
+                            made especially for you.
+                        </p>
+                        <a href="#tours" class="ctn">All Details</a>
+                    </article>
+                    <article class="card col">
+                        <img class="card-img" src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=500&h=300&fit=crop" alt="Tropical Beach Adventure">
+                        <h4 class="dark">Tropical Adventures</h4>
+                        <p class="font-color">
+                            Diving in tropical beaches is exceptional. The coastal
+                            belt surroundings offer some of the richest coral reef
+                            ecosystems in the world.
+                        </p>
+                        <a href="#tours" class="ctn">All Details</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!--Events-->
+
+        <!--Explore-->
+        <section class="explore" id="explore">
+            <div class="explore-content">
+                <h1>EXPLORE THE WORLD</h1>
+                <div class="line"></div>
+                <p>
+                    “Travel makes one modest. You see what a tiny place you
+                    occupy in the world.”– Gustav Flaubert <br />Exploring will
+                    make you want to pack your bag, book that ticket and jet
+                    away.
+                </p>
+                <a href="#" class="ctn">Explore more</a>
+            </div>
+        </section>
+        <!--Explore-->
+
+        <!--Features Section-->
+        <section class="features" id="features">
+            <div class="container">
+                <div class="title">
+                    <h1 class="font-color">Why Choose Adventure?</h1>
+                    <div class="line"></div>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🏔️</div>
+                        <h3>Expert Guides</h3>
+                        <p>Professional guides with years of experience in adventure tourism</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🛡️</div>
+                        <h3>Safety First</h3>
+                        <p>Top-notch safety equipment and protocols for all adventures</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🌍</div>
+                        <h3>Global Destinations</h3>
+                        <p>Explore breathtaking locations across the globe</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">💰</div>
+                        <h3>Best Prices</h3>
+                        <p>Competitive pricing with no hidden costs</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--tours-->
+        <section class="tours" id="tours">
+            <div class="container row">
+                <div class="col content-col">
+                    <h1 class="font-color">UPCOMING TOURS & DESTINATIONS</h1>
+                    <div class="line"></div>
+                    <div class="tour-list">
+                        <div class="tour-item">
+                            <div class="tour-date">Dec 15, 2024</div>
+                            <div class="tour-info">
+                                <h4>Himalayan Expedition</h4>
+                                <p>12-day trekking adventure through Nepal's mountains</p>
+                                <span class="price">$2,499</span>
+                            </div>
+                        </div>
+                        <div class="tour-item">
+                            <div class="tour-date">Jan 10, 2025</div>
+                            <div class="tour-info">
+                                <h4>Amazon Rainforest Adventure</h4>
+                                <p>7-day wildlife and jungle exploration</p>
+                                <span class="price">$1,899</span>
+                            </div>
+                        </div>
+                        <div class="tour-item">
+                            <div class="tour-date">Feb 20, 2025</div>
+                            <div class="tour-info">
+                                <h4>African Safari</h4>
+                                <p>10-day Big Five safari experience</p>
+                                <span class="price">$3,299</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#contact" class="ctn">Book Now</a>
+                </div>
+                <div class="image-col">
+                    <div class="image-gallery">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop" alt="Mountain Adventure" />
+                        <img src="https://images.unsplash.com/photo-1518109268916-cfcc8e5cd6ba?w=400&h=300&fit=crop" alt="Jungle Trek" />
+                        <img src="https://images.unsplash.com/photo-1516426122078-c23e76319801?w=400&h=300&fit=crop" alt="Desert Safari" />
+                        <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400&h=300&fit=crop" alt="Ocean Adventure" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--tours-->
+
+        <!-- About -->
+        <section id="about">
+            <div class="title">
+                <h1 class="font-color">About Us</h1>
+                <div class="line"></div>
+            </div>
+            <br />
+            <div id="about_us">
+                <div class="boxx">
+                    <div class="containerx">
+                        <input type="radio" name="slider" id="item-1" checked />
+                        <input type="radio" name="slider" id="item-2" />
+                        <input type="radio" name="slider" id="item-3" />
+                        <div class="cards">
+                            <label class="cardt" for="item-1" id="col-img-1">
+                                <img src="https://cdn.getyourguide.com/img/tour/5cbeee4b8823d.jpeg/98.jpg" />
+                            </label>
+                            <label class="cardt" for="item-2" id="col-img-2">
+                                <img src="https://cdn.getyourguide.com/img/tour/64786d6069d7d.png/98.jpg" />
+                            </label>
+                            <label class="cardt" for="item-3" id="col-img-3">
+                                <img src="https://cdn.getyourguide.com/img/tour/64786d68f0876.png/145.jpg" />
+                            </label>
+                            
+                        </div>
+                    </div>
+                    <span id="about-quad"
+                        ><a href="#home"
+                            ><center>
+                                <h1
+                                    style="
+                                        font-family: var(--ff-montserrat);
+                                        color: white;
+                                    "
+                                >
+                                    Find that
+                                </h1>
+                                <br />
+                                <img
+                                    class="img2"
+                                    src="https://wallpaperswide.com/download/mountain_ridge_monochrome-wallpaper-1680x1050.jpg"
+                                    width="200"
+                                    style="border-radius: 12%"
+                                />
+                                <br />
+                                <h1 class="logo" style="font-size: 50px">
+                                    ADVENTURE
+                                </h1>
+                            </center>
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </section>
+        <!-- About -->
+
+        <!-- Contributions -->
+        <div class="title">
+            <h1 class="font-color">Contributors</h1>
+            <div class="line"></div>
+        </div>
+        <section class="contributors" id="contribution">
+            <div class="concard">
+                <img
+                    src="https://github.com/PritamSarbajna.png"
+                    alt="profile-picture"
+                    class="pfp"
+                />
+                <div class="text">
+                    <h1>Pritam Sarbajna</h1>
+                </div>
+                <div class="logolink">
+                    <a href="https://github.com/PritamSarbajna" target="_blank"
+                        ><span class="github-icon">🐱</span></a>
+                </div>
+            </div>
+
+
+            <div class="concard">
+                <img
+                    src="https://github.com/athar-ansari.png"
+                    alt="profile-picture"
+                    class="pfp"
+                />
+                <div class="text">
+                    <h1>ATHAR ANSARI</h1>
+                </div>
+                <div class="logolink">
+                    <a href="https://github.com/athar-ansari" target="_blank"
+                        ><span class="github-icon">🐱</span></a>
+                </div>
+            </div>
+
+            <div class="concard">
+                <img
+                    src="https://github.com/prakhartiwari0.png"
+                    alt="profile-picture"
+                    class="pfp"
+                />
+                <div class="text">
+                    <h1>Prakhar Tiwari</h1>
+                </div>
+                <div class="logolink">
+                    <a href="https://github.com/prakhartiwari0" target="_blank"
+                        ><span class="github-icon">🐱</span></a>
+                </div>
+            </div>
+
+            <div class="concard">
+                <img
+                    src="https://github.com/hassana123.png"
+                    alt="profile-picture"
+                    class="pfp"
+                />
+                <div class="text">
+                    <h1>Hassana Abdullahi</h1>
+                </div>
+                <div class="logolink">
+                    <a href="https://github.com/hassana123" target="_blank"
+                        ><span class="github-icon">🐱</span></a>
+                </div>
+            </div>
+
+            <div class="concard">
+                <img
+                    src="https://github.com/JumaCodes.png"
+                    alt="profile-picture"
+                    class="pfp"
+                />
+                <div class="text">
+                    <h1>Olumese Steve-John</h1>
+                </div>
+                <div class="logolink">
+                    <a href="https://github.com/JumaCodes" target="_blank"
+                        ><span class="github-icon">🐱</span></a>
+                </div>
+            </div>
+
+            <div class="concard">
+                <img
+                    src="https://github.com/lubnafathima.png"
+                    alt="profile-picture"
+                    class="pfp"
+                />
+                <div class="text">
+                    <h1>Lubna Fathima N</h1>
+                </div>
+                <div class="logolink">
+                    <a href="https://github.com/lubnafathima" target="_blank"
+                        ><span class="github-icon">🐱</span></a>
+                </div>
+            </div>
+
+            <div class="concard">
+                <img
+                    src="https://github.com/allanlalangan.png"
+                    alt="profile-picture"
+                    class="pfp"
+                />
+                <div class="text">
+                    <h1>Allan</h1>
+                </div>
+                <div class="logolink">
+                    <a href="https://github.com/allanlalangan" target="_blank"
+                        ><span class="github-icon">🐱</span></a>
+                </div>
+            </div>
+
+            <div class="concard">
+                <img
+                    src="https://github.com/Seyi-Ojo.png"
+                    alt="profile-picture"
+                    class="pfp"
+                />
+                <div class="text">
+                    <h1>Mayowa Ojo</h1>
+                </div>
+                <div class="logolink">
+                    <a href="https://github.com/Seyi-Ojo" target="_blank"
+                        ><span class="github-icon">🐱</span></a>
+                </div>
+            </div>
+
+            <div class="concard">
+                <img
+                    src="https://github.com/AmitBarman99.png"
+                    alt="profile-picture"
+                    class="pfp"
+                />
+                <div class="text">
+                    <h1>Amit Barman</h1>
+                </div>
+                <div class="logolink">
+                    <a href="https://github.com/AmitBarman99" target="_blank"
+                        ><span class="github-icon">🐱</span></a>
+                </div>
+            </div>
+
+            <div class="concard">
+                <img
+                    src="https://github.com/ppdTurja.png"
+                    alt="profile-picture"
+                    class="pfp"
+                />
+                <div class="text">
+                    <h1>Partha Turja</h1>
+                </div>
+                <div class="logolink">
+                    <a href="https://github.com/ppdTurja" target="_blank"
+                        ><span class="github-icon">🐱</span></a>
+                </div>
+            </div>
+
+            <div class="concard">
+                <img
+                    src="https://github.com/Brainiac-M.png"
+                    alt="profile-picture"
+                    class="pfp"
+                />
+                <div class="text">
+                    <h1>Mahmood Ademoye</h1>
+                </div>
+                <div class="logolink">
+                    <a href="https://github.com/Brainiac-M" target="_blank"
+                        ><span class="github-icon">🐱</span></a>
+                </div>
+            </div>
+
+            <div class="concard">
+                <img
+                    src="https://github.com/abitsalihu.png"
+                    alt="profile-picture"
+                    class="pfp"
+                />
+                <div class="text">
+                    <h1>Abit Salihu</h1>
+                </div>
+                <div class="logolink">
+                    <a href="https://github.com/abitsalihu" target="_blank"
+                        ><span class="github-icon">🐱</span></a>
+                </div>
+            </div>
+        </section>
+        <!-- Contributions -->
+
+        <!-- Testimonials -->
+        <section class="testimonials" id="testimonials">
+            <div class="container">
+                <div class="title">
+                    <h1 class="font-color">What Our Adventurers Say</h1>
+                    <div class="line"></div>
+                </div>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b2e5?w=80&h=80&fit=crop&crop=face" alt="Sarah" class="testimonial-img">
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                        <p>"Amazing experience! The Everest Base Camp trek was life-changing. Professional guides and excellent safety measures."</p>
+                        <h4>Sarah Johnson</h4>
+                        <span>Adventure Enthusiast</span>
+                    </div>
+                    <div class="testimonial-card">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&h=80&fit=crop&crop=face" alt="Mike" class="testimonial-img">
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                        <p>"The Amazon adventure exceeded all expectations. Saw incredible wildlife and learned so much about the ecosystem."</p>
+                        <h4>Mike Chen</h4>
+                        <span>Nature Photographer</span>
+                    </div>
+                    <div class="testimonial-card">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=80&h=80&fit=crop&crop=face" alt="Emma" class="testimonial-img">
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                        <p>"Perfect organization from start to finish. The African safari was a dream come true. Highly recommended!"</p>
+                        <h4>Emma Williams</h4>
+                        <span>Travel Blogger</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Adventure Map -->
+        <section class="adventure-map" id="map">
+            <div class="container">
+                <div class="title">
+                    <h1 class="font-color">Explore Adventure Destinations</h1>
+                    <div class="line"></div>
+                </div>
+                <div class="map-container">
+                    <div class="world-map">
+                        <div class="map-point" data-location="himalayas" style="top: 35%; left: 70%;">
+                            <div class="pin"></div>
+                            <div class="tooltip">
+                                <h4>Himalayas</h4>
+                                <p>Epic mountain adventures</p>
+                                <span>From $2,499</span>
+                            </div>
+                        </div>
+                        <div class="map-point" data-location="amazon" style="top: 70%; left: 30%;">
+                            <div class="pin"></div>
+                            <div class="tooltip">
+                                <h4>Amazon Rainforest</h4>
+                                <p>Wildlife expeditions</p>
+                                <span>From $1,899</span>
+                            </div>
+                        </div>
+                        <div class="map-point" data-location="africa" style="top: 60%; left: 55%;">
+                            <div class="pin"></div>
+                            <div class="tooltip">
+                                <h4>African Safari</h4>
+                                <p>Big Five adventures</p>
+                                <span>From $3,299</span>
+                            </div>
+                        </div>
+                        <div class="map-point" data-location="arctic" style="top: 15%; left: 45%;">
+                            <div class="pin"></div>
+                            <div class="tooltip">
+                                <h4>Arctic Expedition</h4>
+                                <p>Ice & wildlife tours</p>
+                                <span>From $4,999</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Live Chat Support -->
+        <div class="chat-widget" id="chatWidget">
+            <div class="chat-header">
+                <h4>🎯 Adventure Support</h4>
+                <button class="chat-toggle" id="chatToggle">×</button>
+            </div>
+            <div class="chat-body" id="chatBody">
+                <div class="chat-message bot-message">
+                    <p>Hi! 👋 Ready for your next adventure? How can I help you today?</p>
+                </div>
+            </div>
+            <div class="chat-input">
+                <input type="text" id="chatInput" placeholder="Type your message...">
+                <button id="sendChat">Send</button>
+            </div>
+        </div>
+        <div class="chat-launcher" id="chatLauncher">
+            💬
+        </div>
+
+        <!-- Adventure Calculator -->
+        <section class="adventure-calculator" id="calculator">
+            <div class="container">
+                <div class="title">
+                    <h1 class="font-color">Plan Your Adventure</h1>
+                    <div class="line"></div>
+                </div>
+                <div class="calculator-container">
+                    <div class="calc-inputs">
+                        <div class="input-group">
+                            <label>Destination</label>
+                            <select id="destination">
+                                <option value="himalayas">Himalayas Trek - $2,499</option>
+                                <option value="amazon">Amazon Adventure - $1,899</option>
+                                <option value="safari">African Safari - $3,299</option>
+                                <option value="arctic">Arctic Expedition - $4,999</option>
+                            </select>
+                        </div>
+                        <div class="input-group">
+                            <label>Number of People</label>
+                            <input type="number" id="people" min="1" max="20" value="2">
+                        </div>
+                        <div class="input-group">
+                            <label>Duration (Days)</label>
+                            <input type="range" id="duration" min="3" max="21" value="7">
+                            <span id="durationValue">7 days</span>
+                        </div>
+                        <div class="input-group">
+                            <label>Adventure Level</label>
+                            <div class="level-buttons">
+                                <button class="level-btn active" data-level="beginner">Beginner</button>
+                                <button class="level-btn" data-level="intermediate">Intermediate</button>
+                                <button class="level-btn" data-level="expert">Expert</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="calc-result">
+                        <h3>Your Adventure Package</h3>
+                        <div class="price-breakdown">
+                            <div class="price-item">
+                                <span>Base Price:</span>
+                                <span id="basePrice">$2,499</span>
+                            </div>
+                            <div class="price-item">
+                                <span>Group Size (<span id="groupSize">2</span> people):</span>
+                                <span id="groupPrice">$4,998</span>
+                            </div>
+                            <div class="price-item">
+                                <span>Duration Adjustment:</span>
+                                <span id="durationPrice">$0</span>
+                            </div>
+                            <div class="price-item total">
+                                <span>Total Price:</span>
+                                <span id="totalPrice">$4,998</span>
+                            </div>
+                        </div>
+                        <button class="book-now-btn">Book This Adventure</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Photo Gallery -->
+        <section class="photo-gallery" id="gallery">
+            <div class="container">
+                <div class="title">
+                    <h1 class="font-color">Adventure Gallery</h1>
+                    <div class="line"></div>
+                </div>
+                <div class="gallery-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="mountains">Mountains</button>
+                    <button class="filter-btn" data-filter="wildlife">Wildlife</button>
+                    <button class="filter-btn" data-filter="water">Water</button>
+                    <button class="filter-btn" data-filter="desert">Desert</button>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item" data-category="mountains">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop" alt="Mountain Adventure">
+                        <div class="gallery-overlay">
+                            <h4>Himalayan Trek</h4>
+                            <p>Epic mountain climbing</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="wildlife">
+                        <img src="https://images.unsplash.com/photo-1516426122078-c23e76319801?w=400&h=300&fit=crop" alt="Safari Wildlife">
+                        <div class="gallery-overlay">
+                            <h4>African Safari</h4>
+                            <p>Big Five encounters</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="water">
+                        <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=400&h=300&fit=crop" alt="Water Adventure">
+                        <div class="gallery-overlay">
+                            <h4>Ocean Diving</h4>
+                            <p>Underwater exploration</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="mountains">
+                        <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=400&h=300&fit=crop" alt="Mountain Hiking">
+                        <div class="gallery-overlay">
+                            <h4>Alpine Hiking</h4>
+                            <p>Scenic trail adventures</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="desert">
+                        <img src="https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?w=400&h=300&fit=crop" alt="Desert Adventure">
+                        <div class="gallery-overlay">
+                            <h4>Desert Expedition</h4>
+                            <p>Sahara adventures</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="wildlife">
+                        <img src="https://images.unsplash.com/photo-1518109268916-cfcc8e5cd6ba?w=400&h=300&fit=crop" alt="Jungle Trek">
+                        <div class="gallery-overlay">
+                            <h4>Amazon Jungle</h4>
+                            <p>Rainforest exploration</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Adventure Quiz -->
+        <section class="adventure-quiz" id="quiz">
+            <div class="container">
+                <div class="title">
+                    <h1 class="font-color">Find Your Perfect Adventure</h1>
+                    <div class="line"></div>
+                </div>
+                <div class="quiz-container">
+                    <div class="quiz-question active" data-question="1">
+                        <h3>What's your ideal adventure setting?</h3>
+                        <div class="quiz-options">
+                            <button class="quiz-option" data-answer="mountains">🏔️ Mountains & Peaks</button>
+                            <button class="quiz-option" data-answer="ocean">🌊 Ocean & Beaches</button>
+                            <button class="quiz-option" data-answer="forest">🌲 Forests & Jungles</button>
+                            <button class="quiz-option" data-answer="desert">🏜️ Deserts & Dunes</button>
+                        </div>
+                    </div>
+                    <div class="quiz-question" data-question="2">
+                        <h3>What's your activity preference?</h3>
+                        <div class="quiz-options">
+                            <button class="quiz-option" data-answer="hiking">🥾 Hiking & Trekking</button>
+                            <button class="quiz-option" data-answer="water">🏊 Water Sports</button>
+                            <button class="quiz-option" data-answer="wildlife">📸 Wildlife Photography</button>
+                            <button class="quiz-option" data-answer="extreme">🪂 Extreme Sports</button>
+                        </div>
+                    </div>
+                    <div class="quiz-question" data-question="3">
+                        <h3>How long can you travel?</h3>
+                        <div class="quiz-options">
+                            <button class="quiz-option" data-answer="short">3-5 days</button>
+                            <button class="quiz-option" data-answer="medium">1-2 weeks</button>
+                            <button class="quiz-option" data-answer="long">2+ weeks</button>
+                            <button class="quiz-option" data-answer="flexible">I'm flexible</button>
+                        </div>
+                    </div>
+                    <div class="quiz-result" id="quizResult">
+                        <h3>Your Perfect Adventure:</h3>
+                        <div class="result-content">
+                            <img id="resultImage" src="" alt="Recommended Adventure">
+                            <div class="result-text">
+                                <h4 id="resultTitle"></h4>
+                                <p id="resultDescription"></p>
+                                <div class="result-price" id="resultPrice"></div>
+                                <button class="ctn">Book This Adventure</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Adventure Blog -->
+        <section class="adventure-blog" id="blog">
+            <div class="container">
+                <div class="title">
+                    <h1 class="font-color">Adventure Stories & Tips</h1>
+                    <div class="line"></div>
+                </div>
+                <div class="blog-grid">
+                    <article class="blog-card">
+                        <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=400&h=250&fit=crop" alt="Packing Guide">
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span class="blog-date">Dec 15, 2024</span>
+                                <span class="blog-category">Tips</span>
+                            </div>
+                            <h3>Ultimate Packing Guide for Mountain Adventures</h3>
+                            <p>Essential gear and packing tips for your next mountain expedition. Learn what to bring and what to leave behind.</p>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </article>
+                    <article class="blog-card">
+                        <img src="https://images.unsplash.com/photo-1516426122078-c23e76319801?w=400&h=250&fit=crop" alt="Wildlife Photography">
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span class="blog-date">Dec 10, 2024</span>
+                                <span class="blog-category">Photography</span>
+                            </div>
+                            <h3>Wildlife Photography on Safari</h3>
+                            <p>Professional tips for capturing stunning wildlife photos during your African safari adventure.</p>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </article>
+                    <article class="blog-card">
+                        <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=400&h=250&fit=crop" alt="Safety Tips">
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span class="blog-date">Dec 5, 2024</span>
+                                <span class="blog-category">Safety</span>
+                            </div>
+                            <h3>Adventure Safety: What Every Traveler Should Know</h3>
+                            <p>Essential safety tips and protocols for all types of adventure travel destinations.</p>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Virtual Reality Tours -->
+        <section class="vr-tours" id="vr-tours">
+            <div class="container">
+                <div class="title">
+                    <h1 class="font-color">Virtual Reality Tours</h1>
+                    <div class="line"></div>
+                </div>
+                <div class="vr-grid">
+                    <div class="vr-card" data-destination="everest">
+                        <div class="vr-preview">
+                            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop" alt="Everest VR">
+                            <div class="vr-play-btn">🥽</div>
+                        </div>
+                        <h3>Mount Everest Base Camp</h3>
+                        <p>Experience the breathtaking journey to Everest Base Camp in immersive VR</p>
+                        <button class="vr-btn">Start VR Tour</button>
+                    </div>
+                    <div class="vr-card" data-destination="amazon">
+                        <div class="vr-preview">
+                            <img src="https://images.unsplash.com/photo-1518109268916-cfcc8e5cd6ba?w=400&h=300&fit=crop" alt="Amazon VR">
+                            <div class="vr-play-btn">🥽</div>
+                        </div>
+                        <h3>Amazon Rainforest</h3>
+                        <p>Walk through the lush Amazon rainforest and meet exotic wildlife</p>
+                        <button class="vr-btn">Start VR Tour</button>
+                    </div>
+                    <div class="vr-card" data-destination="arctic">
+                        <div class="vr-preview">
+                            <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop" alt="Arctic VR">
+                            <div class="vr-play-btn">🥽</div>
+                        </div>
+                        <h3>Arctic Expedition</h3>
+                        <p>Explore the frozen Arctic landscape and encounter polar bears</p>
+                        <button class="vr-btn">Start VR Tour</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Weather Widget -->
+        <section class="weather-widget" id="weather">
+            <div class="container">
+                <div class="title">
+                    <h1 class="font-color">Destination Weather</h1>
+                    <div class="line"></div>
+                </div>
+                <div class="weather-grid">
+                    <div class="weather-card" data-city="kathmandu">
+                        <div class="weather-location">
+                            <h3>Kathmandu, Nepal</h3>
+                            <p>Everest Base Camp Gateway</p>
+                        </div>
+                        <div class="weather-info">
+                            <div class="weather-temp">15°C</div>
+                            <div class="weather-desc">Partly Cloudy</div>
+                            <div class="weather-details">
+                                <span>Humidity: 65%</span>
+                                <span>Wind: 12 km/h</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="weather-card" data-city="manaus">
+                        <div class="weather-location">
+                            <h3>Manaus, Brazil</h3>
+                            <p>Amazon Gateway</p>
+                        </div>
+                        <div class="weather-info">
+                            <div class="weather-temp">28°C</div>
+                            <div class="weather-desc">Tropical Storm</div>
+                            <div class="weather-details">
+                                <span>Humidity: 85%</span>
+                                <span>Wind: 8 km/h</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="weather-card" data-city="nairobi">
+                        <div class="weather-location">
+                            <h3>Nairobi, Kenya</h3>
+                            <p>Safari Starting Point</p>
+                        </div>
+                        <div class="weather-info">
+                            <div class="weather-temp">22°C</div>
+                            <div class="weather-desc">Sunny</div>
+                            <div class="weather-details">
+                                <span>Humidity: 45%</span>
+                                <span>Wind: 15 km/h</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Advanced Booking System -->
+        <section class="booking-system" id="booking">
+            <div class="container">
+                <div class="title">
+                    <h1 class="font-color">Book Your Adventure</h1>
+                    <div class="line"></div>
+                </div>
+                <div class="booking-container">
+                    <div class="booking-steps">
+                        <div class="step active" data-step="1">
+                            <div class="step-number">1</div>
+                            <div class="step-title">Choose Adventure</div>
+                        </div>
+                        <div class="step" data-step="2">
+                            <div class="step-number">2</div>
+                            <div class="step-title">Select Dates</div>
+                        </div>
+                        <div class="step" data-step="3">
+                            <div class="step-number">3</div>
+                            <div class="step-title">Group Details</div>
+                        </div>
+                        <div class="step" data-step="4">
+                            <div class="step-number">4</div>
+                            <div class="step-title">Payment</div>
+                        </div>
+                    </div>
+
+                    <div class="booking-content">
+                        <div class="booking-step step-1 active">
+                            <h3>Select Your Adventure</h3>
+                            <div class="adventure-options">
+                                <div class="adventure-option" data-adventure="everest">
+                                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=200&h=150&fit=crop" alt="Everest">
+                                    <div class="option-info">
+                                        <h4>Everest Base Camp Trek</h4>
+                                        <p>14-day adventure</p>
+                                        <span class="price">$2,499</span>
+                                    </div>
+                                </div>
+                                <div class="adventure-option" data-adventure="amazon">
+                                    <img src="https://images.unsplash.com/photo-1518109268916-cfcc8e5cd6ba?w=200&h=150&fit=crop" alt="Amazon">
+                                    <div class="option-info">
+                                        <h4>Amazon Expedition</h4>
+                                        <p>7-day adventure</p>
+                                        <span class="price">$1,899</span>
+                                    </div>
+                                </div>
+                                <div class="adventure-option" data-adventure="safari">
+                                    <img src="https://images.unsplash.com/photo-1516426122078-c23e76319801?w=200&h=150&fit=crop" alt="Safari">
+                                    <div class="option-info">
+                                        <h4>African Safari</h4>
+                                        <p>10-day adventure</p>
+                                        <span class="price">$3,299</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="booking-step step-2">
+                            <h3>Choose Your Dates</h3>
+                            <div class="date-picker">
+                                <div class="date-input">
+                                    <label>Departure Date</label>
+                                    <input type="date" id="departureDate">
+                                </div>
+                                <div class="date-input">
+                                    <label>Return Date</label>
+                                    <input type="date" id="returnDate">
+                                </div>
+                            </div>
+                            <div class="calendar-availability">
+                                <h4>Available Dates</h4>
+                                <div class="availability-grid">
+                                    <div class="available-date">Dec 15, 2024</div>
+                                    <div class="available-date">Jan 10, 2025</div>
+                                    <div class="available-date">Feb 20, 2025</div>
+                                    <div class="available-date">Mar 15, 2025</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="booking-step step-3">
+                            <h3>Group Details</h3>
+                            <div class="group-form">
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label>Number of Adults</label>
+                                        <select id="adults">
+                                            <option value="1">1 Adult</option>
+                                            <option value="2">2 Adults</option>
+                                            <option value="3">3 Adults</option>
+                                            <option value="4">4 Adults</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Number of Children</label>
+                                        <select id="children">
+                                            <option value="0">0 Children</option>
+                                            <option value="1">1 Child</option>
+                                            <option value="2">2 Children</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label>Special Requirements</label>
+                                    <textarea placeholder="Dietary restrictions, medical conditions, etc."></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="booking-step step-4">
+                            <h3>Payment Information</h3>
+                            <div class="payment-summary">
+                                <div class="summary-item">
+                                    <span>Adventure Package:</span>
+                                    <span id="selectedPackage">Everest Base Camp Trek</span>
+                                </div>
+                                <div class="summary-item">
+                                    <span>Duration:</span>
+                                    <span id="selectedDuration">14 days</span>
+                                </div>
+                                <div class="summary-item">
+                                    <span>Guests:</span>
+                                    <span id="selectedGuests">2 Adults</span>
+                                </div>
+                                <div class="summary-item total">
+                                    <span>Total Amount:</span>
+                                    <span id="totalAmount">$4,998</span>
+                                </div>
+                            </div>
+                            <div class="payment-methods">
+                                <button class="payment-btn">💳 Credit Card</button>
+                                <button class="payment-btn">🏦 Bank Transfer</button>
+                                <button class="payment-btn">💰 PayPal</button>
+                            </div>
+                        </div>
+
+                        <div class="booking-navigation">
+                            <button class="nav-btn prev-btn" disabled>Previous</button>
+                            <button class="nav-btn next-btn">Next</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video Testimonials -->
+        <section class="video-testimonials" id="video-testimonials">
+            <div class="container">
+                <div class="title">
+                    <h1 class="font-color">Adventure Stories</h1>
+                    <div class="line"></div>
+                </div>
+                <div class="video-grid">
+                    <div class="video-card" data-video="everest">
+                        <div class="video-thumbnail">
+                            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=250&fit=crop" alt="Everest Story">
+                            <div class="play-overlay">
+                                <div class="play-button">▶️</div>
+                            </div>
+                        </div>
+                        <div class="video-info">
+                            <h4>Sarah's Everest Journey</h4>
+                            <p>"The most challenging and rewarding experience of my life"</p>
+                            <span class="video-duration">3:45</span>
+                        </div>
+                    </div>
+                    <div class="video-card" data-video="amazon">
+                        <div class="video-thumbnail">
+                            <img src="https://images.unsplash.com/photo-1518109268916-cfcc8e5cd6ba?w=400&h=250&fit=crop" alt="Amazon Story">
+                            <div class="play-overlay">
+                                <div class="play-button">▶️</div>
+                            </div>
+                        </div>
+                        <div class="video-info">
+                            <h4>Mike's Amazon Adventure</h4>
+                            <p>"Wildlife photography like never before"</p>
+                            <span class="video-duration">2:30</span>
+                        </div>
+                    </div>
+                    <div class="video-card" data-video="safari">
+                        <div class="video-thumbnail">
+                            <img src="https://images.unsplash.com/photo-1516426122078-c23e76319801?w=400&h=250&fit=crop" alt="Safari Story">
+                            <div class="play-overlay">
+                                <div class="play-button">▶️</div>
+                            </div>
+                        </div>
+                        <div class="video-info">
+                            <h4>Emma's Safari Experience</h4>
+                            <p>"Face to face with the Big Five"</p>
+                            <span class="video-duration">4:12</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Live Adventure Stats -->
+        <section class="live-stats" id="live-stats">
+            <div class="container">
+                <div class="title">
+                    <h1 class="font-color">Live Adventure Statistics</h1>
+                    <div class="line"></div>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">🏔️</div>
+                        <div class="stat-number" data-target="1247">0</div>
+                        <div class="stat-label">Mountains Conquered</div>
+                        <div class="stat-change">+12 this month</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">🌍</div>
+                        <div class="stat-number" data-target="89">0</div>
+                        <div class="stat-label">Countries Explored</div>
+                        <div class="stat-change">+3 this quarter</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">👥</div>
+                        <div class="stat-number" data-target="15420">0</div>
+                        <div class="stat-label">Happy Adventurers</div>
+                        <div class="stat-change">+156 this week</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">⭐</div>
+                        <div class="stat-number" data-target="4.9">0</div>
+                        <div class="stat-label">Average Rating</div>
+                        <div class="stat-change">Consistently excellent</div>
+                    </div>
+                </div>
+                <div class="realtime-activity">
+                    <h3>Real-time Activity</h3>
+                    <div class="activity-feed">
+                        <div class="activity-item">
+                            <span class="activity-time">2 min ago</span>
+                            <span class="activity-text">John from USA booked Everest Base Camp Trek</span>
+                        </div>
+                        <div class="activity-item">
+                            <span class="activity-time">5 min ago</span>
+                            <span class="activity-text">Maria completed Amazon Rainforest expedition</span>
+                        </div>
+                        <div class="activity-item">
+                            <span class="activity-time">8 min ago</span>
+                            <span class="activity-text">Team Summit reached Kilimanjaro peak</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Media Integration -->
+        <section class="social-feed" id="social-feed">
+            <div class="container">
+                <div class="title">
+                    <h1 class="font-color">Adventure Community</h1>
+                    <div class="line"></div>
+                </div>
+                <div class="social-grid">
+                    <div class="social-post">
+                        <div class="post-header">
+                            <img src="https://images.unsplash.com/photo-1494790108755-2616b612b2e5?w=50&h=50&fit=crop&crop=face" alt="User" class="user-avatar">
+                            <div class="user-info">
+                                <h4>@adventuregirl</h4>
+                                <span>2 hours ago</span>
+                            </div>
+                            <div class="social-platform">📷</div>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop" alt="Adventure Post">
+                        <div class="post-content">
+                            <p>Just conquered Mount Everest Base Camp! The view from 5,364m is absolutely breathtaking 🏔️ #EverestBaseCamp #Adventure</p>
+                            <div class="post-stats">
+                                <span>❤️ 234</span>
+                                <span>💬 45</span>
+                                <span>🔄 67</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-post">
+                        <div class="post-header">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=50&h=50&fit=crop&crop=face" alt="User" class="user-avatar">
+                            <div class="user-info">
+                                <h4>@wildlifemike</h4>
+                                <span>4 hours ago</span>
+                            </div>
+                            <div class="social-platform">🎥</div>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1518109268916-cfcc8e5cd6ba?w=400&h=300&fit=crop" alt="Amazon Post">
+                        <div class="post-content">
+                            <p>Swimming with pink dolphins in the Amazon! This magical encounter will stay with me forever 🐬🌿 #Amazon #Wildlife</p>
+                            <div class="post-stats">
+                                <span>❤️ 189</span>
+                                <span>💬 32</span>
+                                <span>🔄 54</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-post">
+                        <div class="post-header">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=50&h=50&fit=crop&crop=face" alt="User" class="user-avatar">
+                            <div class="user-info">
+                                <h4>@safariemma</h4>
+                                <span>6 hours ago</span>
+                            </div>
+                            <div class="social-platform">📱</div>
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1516426122078-c23e76319801?w=400&h=300&fit=crop" alt="Safari Post">
+                        <div class="post-content">
+                            <p>Face to face with a majestic lion in Serengeti. The Big Five safari experience exceeded all expectations! 🦁 #Safari #BigFive</p>
+                            <div class="post-stats">
+                                <span>❤️ 312</span>
+                                <span>💬 78</span>
+                                <span>🔄 89</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-actions">
+                    <button class="social-btn">Share Your Adventure</button>
+                    <button class="social-btn">Follow Us</button>
+                    <div class="hashtag-trending">
+                        <h4>Trending: #AdventureLife #ExploreMore #NatureLovers #TravelGoals</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter Signup -->
+        <section class="newsletter" id="newsletter">
+            <div class="container">
+                <div class="newsletter-content">
+                    <div class="newsletter-text">
+                        <h2>Stay Updated on New Adventures</h2>
+                        <p>Get exclusive deals, travel tips, and be the first to know about new destinations!</p>
+                    </div>
+                    <div class="newsletter-form">
+                        <input type="email" id="newsletterEmail" placeholder="Enter your email address">
+                        <button id="subscribeBtn">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact -->
+        <section id="contact">
+            <div class="title">
+                <h1 class="font-color">Contact Us</h1>
+                <div class="line"></div>
+            </div>
+            <div class="contact_us">
+                <form class="cform" action="" method="post">
+                    <div class="crow-message">
+                        <h1 class="color">Send us a message</h1>
+                        <div></div>
+                    </div>
+                    <div class="crow-in">
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Your name"
+                        />
+                        <input
+                            type="text"
+                            id="email"
+                            name="email"
+                            placeholder="Your Email id"
+                        />
+                    </div>
+                    <div class="crow">
+                        <div class="ccol-left">
+                            <select name="country" id="country">
+                                <option value="India">India</option>
+                                <option value="Russia">Russia</option>
+                                <option value="usa">USA</option>
+                                <option value="Japan">Japan</option>
+                                <option value="France">France</option>
+                                <option value="Brazil">Brazil</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="crow">
+                        <div class="ccol-left">
+                            <textarea
+                                type="text"
+                                id="remarks"
+                                name="remarks"
+                                placeholder="Your Remarks....."
+                                style="height: 150px"
+                            ></textarea>
+                        </div>
+                    </div>
+                    <input class="crow-s" type="submit" value="Submit" />
+                </form>
+                <div class="cbox">
+                    <div>
+                        <p class="cbox-message">
+                            Prefer some other way ?<br />Reach us by using the
+                            details given below
+                        </p>
+                        <div class="cbox-line"></div>
+                    </div>
+                    <div class="c_boxx">
+                        <a href="mailto:shrutivaishkiyar562@gmail.com"
+                            ><i class="fa fa-envelope"></i>
+                            Mail: shrutivaishkiyar562@gmail.com
+                        </a>
+                    </div>
+                    <div class="c_boxx">
+                        <a href="tel:+91-345656789"
+                            ><i class="fa fa-phone"></i>
+                            Phone: (+91) 12345-67890
+                        </a>
+                    </div>
+                    <div class="c_boxx">
+                        <a href="#"
+                            ><i class="fa fa-map-marker"></i>
+                            Location: Barbigha, Sheikhpura, India
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact  -->
+        <!-- up scroll -->
+        <i class="arrow"  onclick="topFunction()" id="upbtn"></i>
+        <!-- end -->
+        <!--footer-->
+        <section class="footer">
+            <span
+                >Created By Shruti kumari | &#169; 2022 All rights
+                reserved.</span
+            >
+            <div class="social">
+                <li>
+                    <a
+                        href="https://pritam-sarbajna-portfolio.netlify.app/"
+                        target="_blank"
+                        rel="noreferrer"
+                        ><i class="fa fa-globe"></i
+                    ></a>
+                    <a
+                        href="https://github.com/PritamSarbajna"
+                        target="_blank"
+                        rel="noreferrer"
+                        ><i class="fa fa-github"></i
+                    ></a>
+                    <a
+                        href="https://www.linkedin.com/in/pritam-sarbajna-74945821b/"
+                        target="_blank"
+                        rel="noreferrer"
+                        ><i class="fa fa-linkedin-square"></i
+                    ></a>
+                </li>
+            </div>
+        </section>
+        <!--footer-->
+
+        <script>
+            const menuBtn = document.querySelector(".menu-btn");
+            const navlinks = document.querySelector(".nav-links");
+
+            menuBtn.addEventListener("click", () => {
+                navlinks.classList.toggle("mobile-menu");
+            });
+        </script>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
